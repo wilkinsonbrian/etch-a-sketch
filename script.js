@@ -35,7 +35,12 @@ function drawGrid() {
 
 
 function hover() {
-    this.classList.add('colorBox');
+    let red = Math.ceil(Math.random() * 255);
+    let green = Math.ceil(Math.random() * 255);
+    let blue = Math.ceil(Math.random() * 255);
+    let newColor = "rgb(" + red + ", " + green + ", " + blue + ")";
+    this.style.backgroundColor = newColor;
+    //this.classList.add('colorBox');
 }
 
 function getNumBoxes() {
