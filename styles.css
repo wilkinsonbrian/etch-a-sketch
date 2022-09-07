@@ -1,5 +1,12 @@
+body {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .box {
-    border: 1px solid red;
+    border: 1px solid #F1EEED;
     width: 40px;
     height: 40px;
 }
@@ -14,5 +21,13 @@
 }
 
 .colorBox {
-    background-color: black;
+    background-color: #F35216;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#F35216;
+    background-color: #F1EEED;
+    font-size: 24px;
+    border: none;
 }
