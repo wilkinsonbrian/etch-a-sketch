@@ -40,7 +40,6 @@ function hover() {
     let blue = Math.ceil(Math.random() * 255);
     let newColor = "rgb(" + red + ", " + green + ", " + blue + ")";
     this.style.backgroundColor = newColor;
-    //this.classList.add('colorBox');
 }
 
 function getNumBoxes() {
